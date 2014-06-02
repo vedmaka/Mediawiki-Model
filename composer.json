@@ -10,6 +10,6 @@
 	},
 
 	"autoload" {
-		["Model.php"]
+		"files": ["Model.php"]
 	}
 }
