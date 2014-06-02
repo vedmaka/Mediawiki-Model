@@ -1,0 +1,14 @@
+{
+	"name": "mediawiki/model",
+	"type": "mediawiki-extension",
+	"description": "Abstraction model for mediawiki developers",
+	"homepage": "http://www.mediawiki.org/wiki/Extension:Model",
+	"license" : "GPL-2.0+",
+
+	"require": {
+		"composer/installers": ">=1.0"
+	},
+	"suggest": {
+		"mediawiki/translation-notifications": "Abstraction model for mediawiki developers"
+	}
+}
