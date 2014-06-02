@@ -7,8 +7,5 @@
 
 	"require": {
 		"composer/installers": ">=1.0"
-	},
-	"suggest": {
-		"mediawiki/translation-notifications": "Abstraction model for mediawiki developers"
 	}
 }
