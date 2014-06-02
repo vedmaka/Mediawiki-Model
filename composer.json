@@ -7,5 +7,9 @@
 
 	"require": {
 		"composer/installers": ">=1.0.1"
+	},
+
+	"autoload" {
+		["Model.php"]
 	}
 }
