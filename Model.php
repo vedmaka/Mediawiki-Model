@@ -9,6 +9,8 @@
  * @author Vedmaka < god.vedmaka@gmail.com >
  */
 
+global $wgModel,$wgVersion;
+
 if ( !defined( 'MEDIAWIKI' ) ) {
     die('Not an entry point.');
 }
@@ -17,7 +19,6 @@ if ( version_compare( $wgVersion, '1.17', '<' ) ) {
     die('<b>Error:</b> This version of Model requires MediaWiki 1.17 or above.');
 }
 
-global $wgModel;
 $wgModelDir = dirname( __FILE__ );
 
 /* Credits page */
