@@ -41,10 +41,10 @@ $wgResourceModules['ext.Model.main'] = array(
 );
 
 /* Message Files */
-//$wgExtensionMessagesFiles['Model'] = dirname( __FILE__ ) . '/Model.i18n.php';
+$wgExtensionMessagesFiles['Model'] = dirname( __FILE__ ) . '/Model.i18n.php';
 
 /* Autoload classes */
-//$wgAutoloadClasses['Model'] = dirname( __FILE__ ) . '/Model.class.php';
+$wgAutoloadClasses['Model'] = dirname( __FILE__ ) . '/Model.class.php';
 #$wgAutoloadClasses['ModelHooks'] = dirname( __FILE__ ) . '/Model.hooks.php';
 
 /* ORM,MODELS */

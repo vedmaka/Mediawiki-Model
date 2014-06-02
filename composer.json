@@ -9,9 +9,7 @@
 	},
     "autoload": {
         "files": [
-        	"Model.php",
-        	"Model.class.php",
-        	"Model.i18n.php"
+        	"Model.php"
         ]
     }
 }
