@@ -9,7 +9,7 @@
  * @author Vedmaka < god.vedmaka@gmail.com >
  */
 
-global $wgModel,$wgVersion;
+global $wgModel,$wgVersion,$wgExtensionCredits,$wgResourceModules,$wgExtensionMessagesFiles,$wgAutoloadClasses;
 
 if ( !defined( 'MEDIAWIKI' ) ) {
     die('Not an entry point.');
