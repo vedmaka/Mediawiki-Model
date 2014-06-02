@@ -22,12 +22,12 @@ if ( version_compare( $wgVersion, '1.17', '<' ) ) {
 $wgModelDir = dirname( __FILE__ );
 
 /* Credits page */
-$wgExtensionCredits['specialpage'][] = array(
+$wgExtensionCredits['extension'][] = array(
     'path' => __FILE__,
     'name' => 'Model',
     'version' => '0.1',
     'author' => 'Vedmaka',
-    'url' => '',
+    'url' => 'https://github.com/vedmaka/Mediawiki-Model',
     'descriptionmsg' => 'Model-desc',
 );
 
