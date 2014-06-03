@@ -1,7 +1,7 @@
 {
 	"name": "mediawiki/model",
 	"type": "mediawiki-extension",
-	"description": "Abstraction model for mediawiki developers",
+	"description": "Abstraction model for mediawiki",
 	"homepage": "http://www.mediawiki.org/wiki/Extension:Model",
 	"license" : "GPL-2.0+",
 	"keywords": ["Model", "SQL"],
