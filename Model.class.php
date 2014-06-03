@@ -358,7 +358,7 @@ abstract class Model
 	{
 
 		/* Property from array set */
-		if ( array_key_exists( $name, $this->properties ) ) {
+		if ( array_key_exists( $name, $this->properties ) && array_key_exists($name, $this->values) ) {
 
 			$method = '_get' . mb_strtoupper( $name[0] ) . substr( $name, 1 );
 
