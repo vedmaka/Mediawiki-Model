@@ -11,5 +11,6 @@
         "files": [
         	"Model.php"
         ]
-    }
+    },
+    "minimum-stability": "dev"
 }
